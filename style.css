@@ -175,3 +175,10 @@
     margin: 22px 0 0 0; 
 }
 
+/* ------ style ajustes */
+.settings-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+}
