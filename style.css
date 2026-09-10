@@ -151,3 +151,26 @@
     margin: 0;
     text-align: center;
 }
+
+.hero-desc {
+    color: #cbd5e1;
+    font-size: 1.1rem;
+    margin: 10px 0 0 0;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.8);
+    max-width: 600px;
+}
+
+.card-desc {
+    color: #94a3b8;
+    font-size: 13px;
+    margin: 10px 0 0 0;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.sidebar-footer-text {
+    color: #64748b;
+    font-size: 12px;
+    text-align: center;
+    margin: 22px 0 0 0; 
+}
