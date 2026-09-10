@@ -38,3 +38,9 @@
 
 
 .sidebar-middle-box{flex:1;margin-top: 20px;margin-bottom: 20px; padding: 20px 10px; box-sizing: border-box; display: flex; flex-direction: column; gap: 20px;}
+.sidebar-link{color: #94a3b8;font-size: 15px; text-decoration: none; display: block; padding: 8px 12px; border-radius: 6px; background-color: transparent;}
+
+
+
+.sidebar-bottom-box{background-color: #94a3b8; font-size: 15px; text-decoration: none; display: block; padding: 8px 12px; border-radius: 6px; background-color: transparent;}
+
