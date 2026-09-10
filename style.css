@@ -180,14 +180,19 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 40px;
+    padding: 30px;
+    box-sizing: border-box;
 }
+
 .settings-card {
     background-color: #1f2a3d;
     border: 1px solid #3a4a63;
     border-radius: 10px;
-    padding: 25px;
-    flex: 1 1 300px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    flex: 1 1 calc(50% - 10px);
+    min-width: 0;
 }
 
 .settings-card h2 {
