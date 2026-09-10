@@ -99,7 +99,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start; flex-direction: column; justify-content: flex-end;
-    padding: 40px;
+    padding: 42px;
     box-sizing: border-box;
 }
 
