@@ -110,7 +110,7 @@
     font-weight: bold;
     text-shadow: 0 4px 10px rgba(0,0,0,0.6);
 }
-
+/* Bloque contenedor de las tarjetas informativas */
 .cards-section {
     background-color: #1e293b;
     border-radius: 8px;
