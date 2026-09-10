@@ -30,3 +30,7 @@
 	box-sizing: border-box; 
 	border-radius: 8px;
 }
+
+.sidebar-top-box{padding: 10px;display: flex;gap: 10px;bpx-sizing: border-box;}
+.sidebar-logo-brand{background-color: #3b82f6; flex: 0.3;height: 40px; box-sizing: border-box; border-radius: 6px;}
+.sidebar-logo-text{background-color: #334155; flex: 0.7;height: 40px;box-sizing: border-box; border-radius: 6px}
