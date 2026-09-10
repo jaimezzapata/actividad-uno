@@ -174,3 +174,33 @@
     text-align: center;
     margin: 22px 0 0 0; 
 }
+
+/* ------ style ajustes */
+.settings-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.settings-card {
+    background-color: #1f2a3d;
+    border: 1px solid #3a4a63;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    flex: 1 1 calc(50% - 10px);
+    min-width: 0;
+}
+
+.settings-card h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.settings-card p {
+    color: #8fb4e8;
+    line-height: 1.5;
+}
