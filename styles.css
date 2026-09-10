@@ -1,4 +1,5 @@
 /* Estilos Preium - Dark Theme */
+
 /* Manteniendo clases independientes, box model y flexbox */
 
 
@@ -37,10 +38,55 @@
 
 
 
-.sidebar-middle-box{flex:1;margin-top: 20px;margin-bottom: 20px; padding: 20px 10px; box-sizing: border-box; display: flex; flex-direction: column; gap: 20px;}
-.sidebar-link{color: #94a3b8;font-size: 15px; text-decoration: none; display: block; padding: 8px 12px; border-radius: 6px; background-color: transparent;}
+.sidebar-middle-box{
+	flex:1;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+	padding: 20px 10px; 
+	box-sizing: border-box; 
+	display: flex; 
+	flex-direction: column; 
+	gap: 20px;
+}
+.sidebar-link{
+	color: #94a3b8;
+	font-size: 15px; 
+	text-decoration: none; 
+	display: block; 
+	padding: 8px 12px; 
+	border-radius: 6px; 
+	background-color: transparent;
+}
 
 
 
-.sidebar-bottom-box{background-color: #94a3b8; font-size: 15px; text-decoration: none; display: block; padding: 8px 12px; border-radius: 6px; background-color: transparent;}
+.sidebar-bottom-box{
+	background-color: #94a3b8;
+	font-size: 15px; 
+	text-decoration: none; 
+	display: block; 
+	padding: 8px 12px; 
+	border-radius: 6px; 
+	background-color: transparent;}
 
+
+.right-content {
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    background-image: url('./images/hero_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; flex-direction: column; justify-content: flex-end;
+    padding: 40px;
+    box-sizing: border-box;
+}
