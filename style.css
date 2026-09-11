@@ -1,7 +1,7 @@
 /* Estilos Premium - Dark Theme */
 /* Manteniendo clases independientes, box model y flexbox */
 
-.body-wrapper {
+.body-wrappers {
     margin: 0;
     padding: 20px;
     background-color: #0b1120; /* Slate 950 */
