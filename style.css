@@ -1,18 +1,16 @@
-/* Estilos Premium - Dark Theme */
-/* Manteniendo clases independientes, box model y flexbox */
-
 .body-wrapper {
     margin: 0;
     padding: 20px;
-    background-color: #0b1120; /* Slate 950 */
+    background-color: #0b1120;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
-    height: 100vh; overflow: hidden;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .main-container {
     display: flex;
-    background-color: #0f172a; /* Slate 900 */
+    background-color: #0f172a;
     padding: 10px;
     gap: 15px;
     box-sizing: border-box;
@@ -22,7 +20,7 @@
 
 .sidebar {
     width: 22%;
-    background-color: #1e293b; /* Slate 800 */
+    background-color: #1e293b;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -70,9 +68,10 @@
     font-size: 15px;
     text-decoration: none;
     display: block;
-    padding: 8px 12px;
+    padding: 12px 15px;
     border-radius: 6px;
-    background-color: transparent;
+    background-color: #334155;
+    box-sizing: border-box;
 }
 
 .sidebar-bottom-box {
@@ -97,8 +96,9 @@
     border-radius: 8px;
     flex: 1;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start; flex-direction: column; justify-content: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
     padding: 40px;
     box-sizing: border-box;
 }
@@ -108,7 +108,7 @@
     margin: 0;
     font-size: 2.5rem;
     font-weight: bold;
-    text-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
 }
 
 .cards-section {
@@ -125,7 +125,7 @@
 .card {
     background-color: #0f172a;
     width: 30%;
-    height: 90%;
+    height: 100%;
     padding: 15px;
     box-sizing: border-box;
     display: flex;
@@ -156,7 +156,7 @@
     color: #cbd5e1;
     font-size: 1.1rem;
     margin: 10px 0 0 0;
-    text-shadow: 0 2px 5px rgba(0,0,0,0.8);
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
     max-width: 600px;
 }
 
@@ -172,5 +172,5 @@
     color: #64748b;
     font-size: 12px;
     text-align: center;
-    margin: 22px 0 0 0; 
+    margin: 22px 0 0 0;
 }
