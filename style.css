@@ -72,3 +72,10 @@
     border-radius: 6px;
     background-color: transparent;
 }
+
+.sidebar-bottom-box {
+    background-color: #334155;
+    height: 60px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
