@@ -68,9 +68,10 @@
     font-size: 15px;
     text-decoration: none;
     display: block;
-    padding: 8px 12px;
+    padding: 12px 15px;
     border-radius: 6px;
-    background-color: transparent;
+    background-color: #334155;
+    box-sizing: border-box;
 }
 
 .sidebar-bottom-box {
@@ -124,7 +125,7 @@
 .card {
     background-color: #0f172a;
     width: 30%;
-    height: 90%;
+    height: 100%;
     padding: 15px;
     box-sizing: border-box;
     display: flex;
